@@ -1,7 +1,9 @@
 package top.guodf.common_path_provider
 
+import android.media.audiofx.EnvironmentalReverb
 import android.os.Build
 import android.os.Environment
+import android.provider.ContactsContract
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
@@ -34,19 +36,19 @@ class CommonPathProviderPlugin(val registrar: Registrar): MethodCallHandler {
             result.success(Environment.getExternalStoragePublicDirectory(call.arguments<String>()).absolutePath)
           }
         }
-
       }
       "appExternalPath"->{
-        if(Build.VERSION.SDK_INT>=19) {
-          result.success(registrar.context().getExternalFilesDirs(null))
-        }else{
-          var paths= arrayListOf<String>()
-          var extPath=registrar.context().getExternalFilesDir(null)
-          for (file in Environment.getExternalStoragePublicDirectory(Environment.MEDIA_MOUNTED).parent) {
-
-          }
-          result.success(paths);
-        }
+        var path=registrar.context().getExternalFilesDir(null)?.parent
+        result.success(path)
+      }
+      "appExternalPublicPath"->{
+        result.success(registrar.context().getExternalFilesDir(call.arguments<String>())?.absolutePath)
+      }
+      "appExternalCachePath"->{
+        result.success(registrar.context().externalCacheDir?.absolutePath)
+      }
+      "appExternalFilesPath"->{
+        result.success(registrar.context().getExternalFilesDir(null)?.absolutePath)
       }
       else -> {
         result.notImplemented()

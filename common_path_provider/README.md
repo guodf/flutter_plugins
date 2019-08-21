@@ -17,6 +17,10 @@ print(await PathProvider.getPublicPath(DirectoryType.movies));
 print(await PathProvider.getPublicPath(DirectoryType.music));
 print(await PathProvider.getPublicPath(DirectoryType.pictures));
 
+print(await PathProvider.appPathProvider.appExternalPath);
+print(await PathProvider.appPathProvider.appExternalFilesPath);
+print(await PathProvider.appPathProvider.appExternalCachePath);
+print(await PathProvider.appPathProvider.appExternalPublicPath(DirectoryType.movies));
 ## 下面方法使用path_proivder实现
 print(await PathProvider.appPathProvider.appPath);
 print(await PathProvider.appPathProvider.appCachePath);

@@ -47,6 +47,10 @@ class _MyAppState extends State<MyApp> {
     print(await PathProvider.appPathProvider.appCachePath);
     print(await PathProvider.appPathProvider.appDataPath);
     print(await PathProvider.appPathProvider.appFilesPath);
+    print(await PathProvider.appPathProvider.appExternalPath);
+    print(await PathProvider.appPathProvider.appExternalFilesPath);
+    print(await PathProvider.appPathProvider.appExternalCachePath);
+    print(await PathProvider.appPathProvider.appExternalPublicPath(DirectoryType.movies));
 
     setState(() {
       _platformVersion = platformVersion;
