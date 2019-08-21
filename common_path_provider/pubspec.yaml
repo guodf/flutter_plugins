@@ -1,6 +1,6 @@
 name: common_path_provider
 description: 获取android常用目录
-version: 0.0.1
+version: 0.0.2
 author: guodf <guo_net_win@live.com>
 homepage: https://github.com/guodf/flutter_plugins/tree/master/common_path_provider
 
@@ -15,6 +15,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  pedantic: ^1.8.0+1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

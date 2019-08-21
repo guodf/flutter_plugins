@@ -17,7 +17,7 @@ class DirectoryType{
 
 class PathProvider {
   static const MethodChannel _channel =
-      const MethodChannel('common_path_provider');
+      MethodChannel('common_path_provider');
 
   static Future<String> get platformVersion async {
     final String version = await _channel.invokeMethod('getPlatformVersion');
@@ -28,7 +28,7 @@ class PathProvider {
     return await _channel.invokeMethod('getPublicPath',directoryType);
   }
 
-  static const CurrentAppPathProvider appPathProvider =const CurrentAppPathProvider(_channel);
+  static const CurrentAppPathProvider appPathProvider =CurrentAppPathProvider(_channel);
 }
 
 class CurrentAppPathProvider {
@@ -55,19 +55,19 @@ class CurrentAppPathProvider {
     return dir.path;
   }
 
-  Future<List<String>> get _appExternalPath async {
-    // return await _channel.invokeMethod("appExternalPath");
-  }
+  // Future<List<String>> get appExternalPath async {
+  //   return await _channel.invokeMethod("appExternalPath");
+  // }
 
-  Future<List<String>> get _appExternalCachePath async {
-    return null;
-  }
+  // Future<List<String>> get _appExternalCachePath async {
+  //   return null;
+  // }
 
-  Future<List<String>> get _externalAppFilesPath async {
-    return null;
-  }
+  // Future<List<String>> get _externalAppFilesPath async {
+  //   return null;
+  // }
 
-  Future<List<String>> get _externalAppDataPath async {
-    return null;
-  }
+  // Future<List<String>> get _externalAppDataPath async {
+  //   return null;
+  // }
 }
