@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:d_socket/src/fixed_length_transform.dart';
 
 main(List<String> args) async {
-  var client = await Socket.connect(InternetAddress.loopbackIPv4, 33333)
+  var client = await Socket.connect(InternetAddress("194.168.1.7"), 33333)
       .timeout(Duration(seconds: 3));
   Timer.periodic(Duration(seconds: 1), (timer) async {
     print(timer.isActive);

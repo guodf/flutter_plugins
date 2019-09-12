@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:d_socket/src/fixed_length_transform.dart';
 
 main(List<String> args) async {
-  var server = await ServerSocket.bind(InternetAddress.loopbackIPv4, 33333);
+  var server = await ServerSocket.bind(InternetAddress("194.168.1.7"), 33333);
   print("start server....");
   await for (var socket in server) {
     acceptSocket(socket);

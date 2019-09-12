@@ -13,15 +13,21 @@ class OffsetTransform extends StreamTransformerBase<Uint8List, Uint8List> {
     Future(() async {
       await for (var data in stream) {
         _cache.addAll(data);
-        var bytes = ByteData.view(
-            Uint8List.fromList(_cache.sublist(offset, offset + 8)).buffer);
-        var length = bytes.getUint64(0);
-
-        if (_cache.length < length - 8) {
-          continue;
+        while (_cache.length>offset) {
+          var bytes = ByteData.view(
+              Uint8List.fromList(_cache.sublist(0, offset)).buffer);
+          //数据包的有效长度
+          var length = bytes.getUint64(0);
+          print("tcp:header:$length,data:${data.length}");
+          if (_cache.length < length + offset) {
+            break;
+          }
+          if (length > 0) {
+            controller.add(
+                Uint8List.fromList(_cache.sublist(offset, length + offset)));
+          }
+          _cache.removeRange(0, length + offset);
         }
-        controller.add(_cache.sublist(9, length));
-        _cache.removeRange(0, length + 8);
       }
     }).catchError((e) {
       controller.addError(e);
