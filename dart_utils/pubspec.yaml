@@ -7,8 +7,5 @@ homepage: https://github.com/guodf//dart_utils
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
-dependencies:
-  ansicolor: ^1.0.2
-
 dev_dependencies:
   test: ^1.9.4

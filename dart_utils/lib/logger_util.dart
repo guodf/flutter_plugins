@@ -1,6 +1,3 @@
-
-import 'package:ansicolor/ansicolor.dart';
-
 abstract class LoggerProvider {
   info(String msg);
   debug(String msg);
@@ -10,29 +7,24 @@ abstract class LoggerProvider {
 
 class PrintLoggerProvider implements LoggerProvider {
 
-  var _pen=AnsiPen();
-  
-	_info(text) => (_pen..green())("info:${DateTime.now()}:$text");
-	_error(text) => (_pen..red())("error:${DateTime.now()}:$text");
-	_log(text) => (_pen..white())("log:${DateTime.now()}:$text");
-	_debug(text) => (_pen..yellow())("debug:${DateTime.now()}:$text");
-
   @override
   debug(String msg) {
-    print(_debug(msg));
+    print("debug:[${DateTime.now()}]:$msg");
   }
 
   @override
   error(String msg) {
-    print(_error(msg));  }
+    print("error:[${DateTime.now()}]:$msg");
+  }
 
   @override
   info(String msg) {
-    print(_info(msg));  }
+    print("info:[${DateTime.now()}]:$msg");
+  }
 
   @override
   log(String msg) {
-    print(_log(msg));
+    print("log:[${DateTime.now()}]:$msg");
   }
 }
 
