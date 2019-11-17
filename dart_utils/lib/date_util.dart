@@ -35,6 +35,10 @@ class DateTimeUtil implements Comparable<DateTimeUtil> {
     return "${dateTime.year}${separate}${_twoDigits(dateTime.month)}${separate}${_twoDigits(dateTime.day)}";
   }
 
+  String toDataStringByRegional(){
+    return "${dateTime.year}年${dateTime.month}月${dateTime.day}日";
+  }
+
   @override
   int compareTo(DateTimeUtil other) {
     return dateTime.compareTo(other.dateTime);

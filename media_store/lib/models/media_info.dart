@@ -1,11 +1,5 @@
 import 'dart:core';
 
-import 'package:built_collection/built_collection.dart';
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-
-part 'media_info.g.dart';
-
 enum MediaType{
   unKnow,
   image,
@@ -13,31 +7,46 @@ enum MediaType{
   audio
 }
 
-abstract class MediaInfo implements Built<MediaInfo, MediaInfoBuilder> {
+class MediaInfo {
 
-  String get  id;
-  @nullable
-  String get name;
-  int get date;
-  int get addDate;
-  int get modifyDate;
-  String get uri;
-  @nullable
-  String get thumUri;
-  @nullable
-  String get mimeType;
-  @nullable
-  int get mediaType;
-  @nullable
-  int get size;
-  @nullable
-  String get albumId;
-  @nullable
-  String get albumName;
-  @nullable
-  String get position;
+  String id;
+  String name;
+  int date;
+  int addDate;
+  int modifyDate;
+  String uri;
+  String thumUri;
+  String mimeType;
+  int mediaType;
+  int size;
+  int width;
+  int height;
+  int duration;
+  String albumId;
+  String albumName;
 
-  MediaInfo._();
-  factory MediaInfo([updates(MediaInfoBuilder b)]) = _$MediaInfo;
-  static Serializer<MediaInfo> get serializer => _$mediaInfoSerializer;
+  MediaInfo.fromMap(Map<String,dynamic> map){
+    id=map["id"];
+    name=map["name"];
+    date=map["date"];
+    addDate=map["addDate"];
+    modifyDate=map["modifyDate"];
+    uri=map["uri"];
+    thumUri=map["thumUri"];
+    mimeType=map["mimeType"];
+    mediaType=map["mediaType"];
+    size=map["size"];
+    width=map["width"];
+    height=map["heigth"];
+    duration=map["duration"];
+    albumId=map["albumId"];
+    albumName=map["albumName"];
+  }
+
+  bool operator ==(mediaInfo){
+    assert(mediaInfo!=null);
+    return mediaInfo.id==this.id; 
+  }
+
+  int get hashCode=>id.hashCode;
 }

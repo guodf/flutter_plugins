@@ -1,8 +1,8 @@
 name: media_store
 description: A new Flutter plugin.
 version: 0.0.1
-author:
-homepage:
+author: guodf
+homepage: https://blogs.guodf.top
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
@@ -10,11 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  built_value:
+  path: ^1.6.4
 
-dev_dependencies:
-  build_runner:
-  built_value_generator:
+# dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec

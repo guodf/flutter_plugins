@@ -3,11 +3,10 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:path/path.dart' as path;
+import 'package:path/path.dart';
 import 'package:flutter/services.dart';
 import 'package:media_store/models/album_info.dart';
 import 'package:media_store/models/media_info.dart';
-import 'package:media_store/models/serializer.dart';
 
 class MediaStore {
   static const MethodChannel _channel = const MethodChannel('media_store');
@@ -25,7 +24,7 @@ class MediaStore {
     var medias = List<MediaInfo>();
     final result = await _channel.invokeMethod("getAllMediaList");
     for (var item in jsonDecode(result)) {
-      medias.add(serializers.deserializeWith(MediaInfo.serializer, item));
+      medias.add(MediaInfo.fromMap(item));
     }
     return medias;
   }
@@ -35,7 +34,7 @@ class MediaStore {
 
     final result = await _channel.invokeMethod("getAlbumInfoList");
     for (var item in jsonDecode(result)) {
-      albums.add(serializers.deserializeWith(AlbumInfo.serializer, item));
+      albums.add(AlbumInfo.fromMap(item));
     }
     return albums;
   }
@@ -77,7 +76,8 @@ class MediaStore {
       if(await File(outFilePath).exists()){
         return outFilePath;
       }
-      var methodName=path.equals(path.extension(filePath),".mp4")? "createVideoThumbnail":"createImageThumbnail";
+
+      var methodName=equals(extension(filePath),".mp4")? "createVideoThumbnail":"createImageThumbnail";
       if(await _channel.invokeMethod(methodName, [filePath, outFilePath])){
         return outFilePath;
       }

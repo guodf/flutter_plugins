@@ -81,6 +81,7 @@ class _MediaImageState extends State<MediaImage> with TickerProviderStateMixin {
 
   void _onScaleUpdate(ScaleUpdateDetails details) {
     setState(() {
+
       _scale = _tmpScale * details.scale;
       _point = _tmpPoint + (details.focalPoint - _firstPoint) / _scale;
       _rotation = _tmpRotation + details.rotation;

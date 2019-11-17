@@ -1,14 +1,11 @@
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
+class AlbumInfo {
+  String id;
+  String name;
+  String uri;
 
-part 'album_info.g.dart';
-
-abstract class AlbumInfo implements Built<AlbumInfo,AlbumInfoBuilder>{
-  String get id;
-  String get name;
-  String get uri;
-
-  AlbumInfo._();
-  factory AlbumInfo([updates(AlbumInfoBuilder b)]) = _$AlbumInfo;
-  static Serializer<AlbumInfo> get serializer => _$albumInfoSerializer;
+  AlbumInfo.fromMap(Map<String,dynamic> map){
+    id=map["id"] as String;
+    name=map["name"] as String;
+    uri=map["uri"] as String;
+  }
 }

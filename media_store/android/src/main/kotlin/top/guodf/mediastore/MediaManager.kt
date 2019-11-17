@@ -3,6 +3,7 @@ package top.guodf.mediastore
 import android.database.Cursor
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.media.ExifInterface
 import android.media.ThumbnailUtils
 import android.net.Uri
 import android.os.Environment
@@ -48,32 +49,42 @@ class MediaManager(private val registrar: Registrar) {
         val imageList = mutableMapOf<String, MediaInfo>()
         val videoList = mutableMapOf<String, MediaInfo>()
         val removeList = arrayListOf<Array<Any>>()
+        var columns =arrayOf(
+                MediaStore.MediaColumns._ID,
+                MediaStore.MediaColumns.DISPLAY_NAME,
+                MediaStore.Images.ImageColumns.DATE_TAKEN,
+                MediaStore.MediaColumns.DATE_ADDED,
+                MediaStore.MediaColumns.DATE_MODIFIED,
+                MediaStore.MediaColumns.DATA,
+                MediaStore.MediaColumns.MIME_TYPE,
+                MediaStore.MediaColumns.SIZE,
+                MediaStore.MediaColumns.WIDTH,
+                MediaStore.MediaColumns.HEIGHT,
+                MediaStore.Images.ImageColumns.BUCKET_ID,
+                MediaStore.Images.ImageColumns.BUCKET_DISPLAY_NAME
+        )
         arrayOf(Image, Video).forEach { mediaType ->
-            val mediaUri = if (mediaType == Image) MediaStore.Images.Media.EXTERNAL_CONTENT_URI else MediaStore.Video.Media.EXTERNAL_CONTENT_URI
-            val mediaData = if (mediaType == Image) MediaStore.Images.Media.DATA else MediaStore.Video.Media.DATA
-            this.mediaQuery(arrayOf(
-                    MediaStore.MediaColumns._ID,
-                    MediaStore.MediaColumns.DISPLAY_NAME,
-                    MediaStore.Images.ImageColumns.DATE_TAKEN,
-                    MediaStore.MediaColumns.DATE_ADDED,
-                    MediaStore.MediaColumns.DATE_MODIFIED,
-                    MediaStore.MediaColumns.DATA,
-                    MediaStore.MediaColumns.MIME_TYPE,
-                    MediaStore.MediaColumns.SIZE,
-                    MediaStore.Images.ImageColumns.BUCKET_ID,
-                    MediaStore.Images.ImageColumns.BUCKET_DISPLAY_NAME
-            ), mediaType, false, null, MediaStore.Images.ImageColumns.DATE_ADDED, fun(cursor) {
+            if(mediaType==Video){
+                columns=columns.plus(MediaStore.Video.VideoColumns.DURATION)
+            }
+            this.mediaQuery(columns, mediaType, false, null, MediaStore.MediaColumns.DATE_ADDED, fun(cursor) {
                 val id = cursor.getString(cursor.getColumnIndex(MediaStore.Images.ImageColumns._ID))
                 val name = cursor.getString(cursor.getColumnIndex(MediaStore.Images.ImageColumns.DISPLAY_NAME))
                 val date = cursor.getLong(cursor.getColumnIndex(MediaStore.Images.ImageColumns.DATE_TAKEN))
-                var addDate = cursor.getLong(cursor.getColumnIndex(MediaStore.MediaColumns.DATE_ADDED));
-                var modifyDate = cursor.getLong(cursor.getColumnIndex(MediaStore.MediaColumns.DATE_MODIFIED));
+                var addDate = cursor.getLong(cursor.getColumnIndex(MediaStore.MediaColumns.DATE_ADDED))
+                var modifyDate = cursor.getLong(cursor.getColumnIndex(MediaStore.MediaColumns.DATE_MODIFIED))
                 val path = cursor.getString(cursor.getColumnIndex(MediaStore.Images.ImageColumns.DATA))
                 val mimeType = cursor.getString(cursor.getColumnIndex(MediaStore.Images.Media.MIME_TYPE))
                 val size = cursor.getLong(cursor.getColumnIndex(MediaStore.MediaColumns.SIZE))
+                val width=cursor.getInt(cursor.getColumnIndex(MediaStore.MediaColumns.WIDTH))
+                val height=cursor.getInt(cursor.getColumnIndex(MediaStore.MediaColumns.HEIGHT))
+                var duration: Int? = null
+                if(mediaType==Video){
+                    duration=cursor.getInt(cursor.getColumnIndex(MediaStore.Video.VideoColumns.DURATION))
+                }
                 var albumId = cursor.getString(cursor.getColumnIndex(MediaStore.Images.ImageColumns.BUCKET_ID))
                 var albumName = cursor.getString(cursor.getColumnIndex(MediaStore.Images.ImageColumns.BUCKET_DISPLAY_NAME))
-                val media = MediaInfo(id, name, date, addDate, modifyDate, path, null, mimeType, mediaType, size, albumId, albumName)
+                val media = MediaInfo(id, name, date, addDate, modifyDate, path, null, mimeType, mediaType, size,width,height,duration, albumId, albumName)
 
                 registrar.context().contentResolver
                 if (path != null && (File(path).exists())) {
@@ -235,9 +246,9 @@ class MediaManager(private val registrar: Registrar) {
     }
 }
 
-const val Image = 1;
-const val Video = 2;
-const val Audio = 3;
+const val Image = 1
+const val Video = 2
+const val Audio = 3
 
 @IntDef(Image, Video, Audio)
 @Target(AnnotationTarget.FIELD, AnnotationTarget.VALUE_PARAMETER)
@@ -257,5 +268,8 @@ data class MediaInfo(
         val mimeType: String?,
         @MediaType val mediaType: Int,
         val size: Long,
+        val width: Int?=null,
+        val heigth: Int?=null,
+        val duration: Int?=null,
         var albumId: String?,
         var albumName: String?)
