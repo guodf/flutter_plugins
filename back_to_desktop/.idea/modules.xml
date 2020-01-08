@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/back_to_desktop.iml" filepath="$PROJECT_DIR$/back_to_desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/back_to_desktop_android.iml" filepath="$PROJECT_DIR$/android/back_to_desktop_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/back_to_desktop_example_android.iml" filepath="$PROJECT_DIR$/example/android/back_to_desktop_example_android.iml" />
+    </modules>
+  </component>
+</project>

@@ -6,9 +6,9 @@ import 'package:flutter/material.dart';
 class MediaImage extends StatefulWidget {
   final Color backgroundColor;
   final Widget child;
-
+  
   MediaImage(
-      {Key key, @required this.child, this.backgroundColor = Colors.black})
+      {Key key,this.child, this.backgroundColor = Colors.black})
       : super(key: key);
 
   @override

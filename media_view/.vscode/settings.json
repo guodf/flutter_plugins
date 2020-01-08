@@ -1,4 +1,5 @@
 {
     "maven.view": "hierarchical",
-    "commentTranslate.targetLanguage": "zh-CN"
+    "commentTranslate.targetLanguage": "zh-CN",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

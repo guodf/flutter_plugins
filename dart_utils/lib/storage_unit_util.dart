@@ -3,10 +3,12 @@ enum StorageUnitType { bit, byte, kb, mb, gb, tb }
 class StorageUnitUtil {
   static const int bit = 1;
   static const int bitPerbyte = 8;
-  static const int bytePerkb = 1024;
-  static const int bytePermb = bytePerkb * 1024;
-  static const int bytePergb = bytePermb * 1024;
-  static const int bytePertb = bytePergb * 1024;
+  static const int bytePerkb = 1000;
+  static const int bytePermb = bytePerkb * 1000;
+  static const int bytePergb = bytePermb * 1000;
+  static const int bytePertb = bytePergb * 1000;
+
+
 
   final int size;
   double _size;

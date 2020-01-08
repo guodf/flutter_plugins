@@ -1,5 +1,6 @@
 package top.guodf.common_path_provider
 
+import android.annotation.TargetApi
 import android.media.audiofx.EnvironmentalReverb
 import android.os.Build
 import android.os.Environment
@@ -20,6 +21,7 @@ class CommonPathProviderPlugin(val registrar: Registrar): MethodCallHandler {
     }
   }
 
+  @TargetApi(Build.VERSION_CODES.FROYO)
   override fun onMethodCall(call: MethodCall, result: Result) {
     when (call.method) {
       "getPlatformVersion" -> {
