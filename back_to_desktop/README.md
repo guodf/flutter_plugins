@@ -1,14 +1,40 @@
 # back_to_desktop
+**仅支持android**  
 
-A new flutter plugin project.
+模仿home键作用
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+Import package: `package:back_to_desktop/back_to_desktop.dart';`
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Example: [完整例子](./example/lib/main.dart)
+
+```dart
+import 'package:back_to_desktop/back_to_desktop.dart';
+
+...
+
+@override
+Widget build(BuildContext context) {
+var random = Random().nextInt(10);
+return MaterialApp(
+    home: WillPopScope(
+    onWillPop: () async {
+        await BackToDesktop.backToDesktop();
+        //important
+        return false;
+    },
+    child: Scaffold(
+        appBar: AppBar(
+        title: Text('Plugin example app'),
+        ),
+        body: Center(
+        child: Text('Random:$random'),
+        ),
+    ),
+    ),
+);
+}
+
+```

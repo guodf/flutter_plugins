@@ -1,9 +1,6 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
 import 'package:back_to_desktop/back_to_desktop.dart';
 
 void main() => runApp(MyApp());
