@@ -1,7 +1,6 @@
 name: back_to_desktop
 description: A new flutter plugin project.
 version: 0.0.1
-author: guodf <guo_net_win@live.com>
 homepage: https://github.com/guodf/flutter_plugins/tree/master/back_to_desktop
 
 environment:
