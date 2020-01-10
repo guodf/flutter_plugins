@@ -1,7 +1,7 @@
 name: back_to_desktop
 description: A new flutter plugin project.
 version: 0.0.1
-homepage: https://github.com/guodf/flutter_plugins/tree/master/back_to_desktop
+homepage: https://github.com/guodf/flutter_plugins/back_to_desktop
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

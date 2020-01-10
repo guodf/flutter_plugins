@@ -1,8 +1,7 @@
 name: common_path_provider
 description: 获取android常用目录
 version: 0.0.4
-author: guodf <guo_net_win@live.com>
-homepage: https://github.com/guodf/flutter_plugins/tree/master/common_path_provider
+homepage: https://github.com/guodf/flutter_plugins/common_path_provider
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

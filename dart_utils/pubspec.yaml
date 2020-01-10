@@ -1,8 +1,7 @@
 name: dart_utils
 description: A new Dart package project.
-version: 0.0.1
-author: guodf
-homepage: https://github.com/guodf/dart_utils
+version: 0.0.2
+homepage: https://github.com/guodf/flutter_plugins/dart_utils
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
