@@ -20,7 +20,7 @@ class DirectoryType{
 /// 获取常用目录类
 class PathProvider {
   static const MethodChannel _channel =
-      MethodChannel('common_path_provider');
+      MethodChannel('guo.top.flutter.common_path_provider');
 
   /// 获取android版本
 

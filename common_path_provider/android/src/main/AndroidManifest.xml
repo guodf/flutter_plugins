@@ -1,3 +1,3 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="top.guodf.common_path_provider">
+  package="top.guodf.flutter.common_path_provider">
 </manifest>

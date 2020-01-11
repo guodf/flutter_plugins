@@ -1,19 +1,15 @@
-group 'top.guodf.common_path_provider'
+group 'top.guodf.flutter.common_path_provider'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.2.71'
+    ext.kotlin_version = '1.3.50'
     repositories {
-        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
-        maven {
-            url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'
-        }
         google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.5.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -36,7 +32,7 @@ android {
     }
     defaultConfig {
         minSdkVersion 16
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
         disable 'InvalidPackage'
@@ -45,5 +41,4 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-
 }

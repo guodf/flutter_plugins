@@ -1,36 +1,14 @@
 # common_path_provider
 
-获取Android/IOS常用目录路径
+A new flutter plugin project.
 
-## Android
+## Getting Started
 
-```dart
-import 'package:common_path_provider/path_provider.dart';
+This project is a starting point for a Flutter
+[plug-in package](https://flutter.dev/developing-packages/),
+a specialized package that includes platform-specific implementation code for
+Android and/or iOS.
 
-print(await PathProvider.getPublicPath(DirectoryType.alarms));
-print(await PathProvider.getPublicPath(DirectoryType.cache));
-print(await PathProvider.getPublicPath(DirectoryType.dcim));
-print(await PathProvider.getPublicPath(DirectoryType.documents));
-print(await PathProvider.getPublicPath(DirectoryType.download));
-print(await PathProvider.getPublicPath(DirectoryType.home));
-print(await PathProvider.getPublicPath(DirectoryType.movies));
-print(await PathProvider.getPublicPath(DirectoryType.music));
-print(await PathProvider.getPublicPath(DirectoryType.pictures));
-
-print(await PathProvider.appPathProvider.appExternalPath);
-print(await PathProvider.appPathProvider.appExternalFilesPath);
-print(await PathProvider.appPathProvider.appExternalCachePath);
-print(await PathProvider.appPathProvider.appExternalPublicPath(DirectoryType.movies));
-## 下面方法使用path_proivder实现
-print(await PathProvider.appPathProvider.appPath);
-print(await PathProvider.appPathProvider.appCachePath);
-print(await PathProvider.appPathProvider.appDataPath);
-print(await PathProvider.appPathProvider.appFilesPath);
-```
-
-### 获取多个scard路径（未实现）
-
-
-## IOS(未实现)
-
-
+For help getting started with Flutter, view our 
+[online documentation](https://flutter.dev/docs), which offers tutorials, 
+samples, guidance on mobile development, and a full API reference.
