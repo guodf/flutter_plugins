@@ -22,13 +22,6 @@ class PathProvider {
   static const MethodChannel _channel =
       MethodChannel('guo.top.flutter.common_path_provider');
 
-  /// 获取android版本
-
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-
   /// 根据DirectoryType获取目录路径
   /// 
   /// call Environment.getDataDirectory().absolutePat if DirectoryType.Home
