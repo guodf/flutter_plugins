@@ -10,14 +10,12 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
-
 allprojects {
     repositories {
         google()
         jcenter()
     }
 }
-
 rootProject.buildDir = '../build'
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
@@ -25,7 +23,9 @@ subprojects {
 subprojects {
     project.evaluationDependsOn(':app')
 }
-
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+dependencies {
 }
