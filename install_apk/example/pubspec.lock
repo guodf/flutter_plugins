@@ -46,7 +46,7 @@ packages:
   common_path_provider:
     dependency: "direct dev"
     description:
-      path: "..\\..\\common_path_provider"
+      path: "../../common_path_provider"
       relative: true
     source: path
     version: "0.0.1"
@@ -74,7 +74,7 @@ packages:
   download_manager:
     dependency: "direct dev"
     description:
-      path: "..\\..\\download_manager"
+      path: "../../download_manager"
       relative: true
     source: path
     version: "0.0.1"
@@ -105,7 +105,7 @@ packages:
   local_permissions:
     dependency: "direct dev"
     description:
-      path: "..\\..\\local_permissions"
+      path: "../../local_permissions"
       relative: true
     source: path
     version: "0.0.1"
@@ -137,13 +137,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.5.1"
-  pedantic:
-    dependency: transitive
-    description:
-      name: pedantic
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "1.8.0+1"
   petitparser:
     dependency: transitive
     description:
@@ -211,7 +204,7 @@ packages:
       name: test_api
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.2.11"
+    version: "0.2.15"
   typed_data:
     dependency: transitive
     description:
