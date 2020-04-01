@@ -53,9 +53,6 @@ android {
             signingConfig signingConfigs.debug
         }
     }
-    packagingOptions {
-        pickFirst 'META-INF/back_to_desktop_debug.kotlin_module'
-    }
 }
 
 flutter {
