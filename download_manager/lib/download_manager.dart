@@ -14,7 +14,15 @@ class DownloadManager {
     return await _channel.invokeMethod("download",[url,title]);
   }
 
-  static Future<bool> cancel(String downloadId)async{
+  static Future<bool> cancel(int downloadId)async{
     return await _channel.invokeMethod("cancel",downloadId);
+  }
+
+  static Future<int> status(int downloadId) async{
+    return await _channel.invokeMethod("status",downloadId);
+  }
+
+  static Future<String> filePath(int downloadId) async{
+    return await _channel.invokeMethod("filePath",downloadId);
   }
 }
