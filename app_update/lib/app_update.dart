@@ -33,7 +33,7 @@ class AppUpdate {
       _updateing = true;
       final packInfo = await PackageInfo.fromPlatform();
       final oldVersion = packInfo.version;
-      var resp = await http.get("$url/version/check");
+      var resp = await http.get("$url/version/check/${packInfo.packageName}");
       if (resp.statusCode == HttpStatus.ok) {
 //      {
 //        "version":"",
