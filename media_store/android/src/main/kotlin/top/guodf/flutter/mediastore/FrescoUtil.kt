@@ -1,4 +1,4 @@
-package top.guodf.mediastore
+package top.guodf.flutter.mediastore
 
 import android.graphics.Bitmap
 import android.net.Uri

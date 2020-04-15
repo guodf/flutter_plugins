@@ -1,4 +1,4 @@
-package top.guodf.mediastore
+package top.guodf.flutter.mediastore
 
 import android.Manifest
 import com.facebook.cache.disk.DiskCacheConfig

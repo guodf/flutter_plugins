@@ -23,6 +23,7 @@ class MediaStore {
   static Future<List<MediaInfo>> getAllMediaList() async {
     var medias = List<MediaInfo>();
     final result = await _channel.invokeMethod("getAllMediaList");
+    print(result);
     for (var item in jsonDecode(result)) {
       medias.add(MediaInfo.fromMap(item));
     }

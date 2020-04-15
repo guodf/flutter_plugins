@@ -1,4 +1,4 @@
-package top.guodf.mediastore
+package top.guodf.flutter.mediastore
 
 import android.database.Cursor
 import android.graphics.Bitmap

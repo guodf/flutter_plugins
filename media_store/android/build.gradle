@@ -1,4 +1,4 @@
-group 'top.guodf.mediastore'
+group 'top.guodf.flutter.mediastore'
 version '1.0-SNAPSHOT'
 
 buildscript {

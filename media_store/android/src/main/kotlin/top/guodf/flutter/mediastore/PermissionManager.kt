@@ -1,4 +1,4 @@
-package top.guodf.mediastore
+package top.guodf.flutter.mediastore
 
 import android.Manifest
 import android.content.pm.PackageManager

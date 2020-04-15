@@ -1,4 +1,4 @@
-package top.guodf.mediastoreexample
+package top.guodf.flutter.mediastoreexample
 
 import android.os.Bundle
 
