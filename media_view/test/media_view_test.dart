@@ -5,6 +5,8 @@ import 'package:media_view/media_view.dart';
 void main() {
   const MethodChannel channel = MethodChannel('media_view');
 
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   setUp(() {
     channel.setMockMethodCallHandler((MethodCall methodCall) async {
       return '42';
