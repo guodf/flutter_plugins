@@ -1,37 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b86d68d0-273c-4813-86e6-98192fa9d1c9" name="Default Changelist" comment="" />
+    <list default="true" id="b86d68d0-273c-4813-86e6-98192fa9d1c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../app_update/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../media_store/media_store.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/FrescoUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/FrescoUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/GlideUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/GlideUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/MediaManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/MediaManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/MediaStorePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/MediaStorePlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/NotSupportedMediaException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/NotSupportedMediaException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/PermissionManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/PermissionManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/kotlin/top/guodf/mediastoreexample/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/settings_aar.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Flutter/flutter_export_environment.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/Assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/Classes/MediaStorePlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/Classes/MediaStorePlugin.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/Classes/SwiftMediaStorePlugin.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/media_store.podspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/lib/media_store.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/lib/media_store.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/lib/models/album_info.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/lib/models/media_info.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/res/values/strings_en.arb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="21aca54c" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1WHGswQWd0oJoCS7M0UMKmDVdEX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../download_manager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.28275862" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b86d68d0-273c-4813-86e6-98192fa9d1c9" name="Default Changelist" comment="" />
@@ -47,37 +150,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Notifications" timestamp="1578799375577">
+    <state x="599" y="123" width="510" height="578" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1620561957546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1578799375577" />
-    <state x="438" y="89" width="662" height="598" key="#xdebugger.evaluate" timestamp="1578802819022">
+    <state x="599" y="123" width="510" height="578" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1620561957546" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1620561975435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="438" y="89" width="662" height="598" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1578802819022" />
-    <state width="579" height="438" key="DebuggerActiveHint" timestamp="1578808226093">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="579" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1578808226093" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1578805920796">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578805920796" />
-    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1578808852857">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578808852857" />
-    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1578808852857">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578808852857" />
-    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1578808852857">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578808852857" />
-    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1578808852857">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578808852857" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620561975435" />
   </component>
 </project>

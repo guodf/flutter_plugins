@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/app_update/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app_update/build" />
+      <excludeFolder url="file://$MODULE_DIR$/app_update/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/app_update/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/back_to_desktop/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/back_to_desktop/build" />
+      <excludeFolder url="file://$MODULE_DIR$/back_to_desktop/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/back_to_desktop/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/common_path_provider/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/common_path_provider/build" />
+      <excludeFolder url="file://$MODULE_DIR$/common_path_provider/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/common_path_provider/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/d_socket/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/d_socket/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dart_utils/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dart_utils/build" />
+      <excludeFolder url="file://$MODULE_DIR$/download_manager/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/download_manager/build" />
+      <excludeFolder url="file://$MODULE_DIR$/download_manager/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/download_manager/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/easy_isolate/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/easy_isolate/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_native_utils/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_native_utils/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_native_utils/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_native_utils/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/install_apk/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/install_apk/build" />
+      <excludeFolder url="file://$MODULE_DIR$/install_apk/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/install_apk/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/local_permissions/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/local_permissions/build" />
+      <excludeFolder url="file://$MODULE_DIR$/local_permissions/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/local_permissions/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_store.old/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_store.old/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_store.old/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_store.old/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_store/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_store/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_store/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_store/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/linux/flutter/ephemeral/.plugin_symlinks/media_view/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/linux/flutter/ephemeral/.plugin_symlinks/media_view/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/linux/flutter/ephemeral/.plugin_symlinks/media_view/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/linux/flutter/ephemeral/.plugin_symlinks/media_view/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/windows/flutter/ephemeral/.plugin_symlinks/media_view/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/windows/flutter/ephemeral/.plugin_symlinks/media_view/build" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/windows/flutter/ephemeral/.plugin_symlinks/media_view/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/media_view/example/windows/flutter/ephemeral/.plugin_symlinks/media_view/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/restart_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/restart_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/restart_app/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/restart_app/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/zxing_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/zxing_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/zxing_flutter/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/zxing_flutter/example/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

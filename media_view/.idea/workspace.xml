@@ -4,13 +4,120 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afdace0e-9f46-483a-9d30-6362ab1a5335" name="Default Changelist" comment="" />
+    <list default="true" id="afdace0e-9f46-483a-9d30-6362ab1a5335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../app_update/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../media_store/media_store.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/android/src/main/kotlin/top/guodf/flutter/app_update/AppUpdatePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/android/src/main/kotlin/top/guodf/flutter/app_update/AppUpdatePlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_update/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../app_update/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install_apk/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../install_apk/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install_apk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../install_apk/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install_apk/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../install_apk/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install_apk/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../install_apk/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local_permissions/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../local_permissions/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local_permissions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../local_permissions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local_permissions/android/src/main/kotlin/top/guodf/flutter/local_permissions/LocalPermissionsPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../local_permissions/android/src/main/kotlin/top/guodf/flutter/local_permissions/LocalPermissionsPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local_permissions/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../local_permissions/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local_permissions/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../local_permissions/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/FrescoUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/FrescoUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/GlideUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/GlideUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/MediaManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/MediaManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/MediaStorePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/MediaStorePlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/NotSupportedMediaException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/NotSupportedMediaException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/mediastore/PermissionManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/android/src/main/kotlin/top/guodf/flutter/media_store/PermissionManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/kotlin/top/guodf/mediastoreexample/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/android/settings_aar.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Flutter/flutter_export_environment.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/example/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/Assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/Classes/MediaStorePlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/Classes/MediaStorePlugin.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/Classes/SwiftMediaStorePlugin.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/ios/media_store.podspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/lib/media_store.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/lib/media_store.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/lib/models/album_info.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/lib/models/media_info.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../media_store/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media_store/res/values/strings_en.arb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@b6qcuwk7lbscovtw]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\guodf\.android\avd\Pixel_2_API_26.avd]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -25,6 +132,10 @@
     <property name="android.sdk.path" value="D:/android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.28275862" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -86,9 +197,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="174" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620551692650" />
-    <state x="269" y="75" key="SettingsEditor" timestamp="1620550677304">
+    <state x="269" y="0" key="SettingsEditor" timestamp="1620563280258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="269" y="75" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620550677304" />
+    <state x="269" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620563280258" />
   </component>
 </project>

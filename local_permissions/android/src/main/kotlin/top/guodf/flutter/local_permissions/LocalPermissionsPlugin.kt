@@ -21,38 +21,18 @@ const val MY_PERMISSION_CODE = 99099
 
 /** LocalPermissionsPlugin */
 public class LocalPermissionsPlugin : FlutterPlugin, MethodCallHandler, ActivityAware, PluginRegistry.RequestPermissionsResultListener {
-  override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    setMethodCallHandler(flutterPluginBinding.applicationContext, flutterPluginBinding.binaryMessenger)
-  }
-
-  // This static function is optional and equivalent to onAttachedToEngine. It supports the old
-  // pre-Flutter-1.12 Android projects. You are encouraged to continue supporting
-  // plugin registration via this function while apps migrate to use the new Android APIs
-  // post-flutter-1.12 via https://flutter.dev/go/android-project-migration.
-  //
-  // It is encouraged to share logic between onAttachedToEngine and registerWith to keep
-  // them functionally equivalent. Only one of onAttachedToEngine or registerWith will be called
-  // depending on the user's project. onAttachedToEngine or registerWith must both be defined
-  // in the same class.
-  companion object {
-    @JvmStatic
-    fun registerWith(registrar: Registrar) {
-      var localPermissionsPlugin = LocalPermissionsPlugin();
-      localPermissionsPlugin.setMethodCallHandler(registrar.context(), registrar.messenger())
-    }
-  }
-
   private lateinit var _context: Context
   private lateinit var _channel: MethodChannel
   private lateinit var _activity: Activity
-  private fun setMethodCallHandler(context: Context, binaryMessenger: BinaryMessenger) {
-    _context = context
-    _channel = MethodChannel(binaryMessenger, "guo.top.flutter.local_permissions")
+  private lateinit var _result: Result
+  private lateinit var _agreePermissionsList: ArrayList<String>
+
+  override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
+    _context = flutterPluginBinding.applicationContext
+    _channel = MethodChannel(flutterPluginBinding.binaryMessenger, "guo.top.flutter.local_permissions")
     _channel.setMethodCallHandler(this)
   }
 
-  private lateinit var _result: Result
-  private lateinit var _agreePermissionsList: ArrayList<String>
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
     _result = result
     if (call.method == "getPermissions") {
